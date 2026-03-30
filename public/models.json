@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "CloudSync Pro",
+    "description": "Seamless real-time file synchronization across all your devices.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["50GB Storage", "256-bit Encryption", "Priority Support"],
+    "icon": "☁️"
+  },
+  {
+    "id": 2,
+    "name": "SEO Rocket",
+    "description": "Boost your search engine rankings with AI-driven keyword analysis.",
+    "price": 49.00,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["Weekly Audit", "Keyword Tracking", "Competitor Insights", "Backlink Monitor"],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "DevFlow Lite",
+    "description": "Minimalist project management tool for independent developers.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Unlimited Tasks", "3 Board Views", "GitHub Integration"],
+    "icon": "💻"
+  },
+  {
+    "id": 4,
+    "name": "DesignHub Plus",
+    "description": "Collaborative canvas for design teams to brainstorm and prototype.",
+    "price": 199.00,
+    "period": "yearly",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["Unlimited Files", "Team Roles", "Version History", "Custom Fonts"],
+    "icon": "🎨"
+  },
+  {
+    "id": 5,
+    "name": "MailPulse",
+    "description": "Automated email marketing campaigns with high deliverability.",
+    "price": 25.00,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["Smart Segments", "A/B Testing", "Drag-n-Drop Editor"],
+    "icon": "📧"
+  },
+  {
+    "id": 6,
+    "name": "SecureVault",
+    "description": "Enterprise-grade password manager and sensitive data locker.",
+    "price": 120.00,
+    "period": "one-time",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["Offline Access", "Biometric Login", "Emergency Kit", "Data Breach Alerts"],
+    "icon": "🔐"
+  },
+  {
+    "id": 7,
+    "name": "Insight Analytics",
+    "description": "Deep-dive user behavior tracking for your web applications.",
+    "price": 59.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": ["Heatmaps", "Funnel Analysis", "Real-time Visitors", "API Access"],
+    "icon": "📊"
+  },
+  {
+    "id": 8,
+    "name": "SocialStream",
+    "description": "One dashboard to manage and schedule all your social platforms.",
+    "price": 39.00,
+    "period": "monthly",
+    "tag": "best-seller",
+    "tagType": "Best Seller",
+    "features": ["AI Captioning", "Unified Inbox", "Custom Reporting"],
+    "icon": "📱"
+  },
+  {
+    "id": 9,
+    "name": "LeadGen Max",
+    "description": "High-conversion landing page builder for sales professionals.",
+    "price": 299.00,
+    "period": "yearly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": ["CRM Sync", "Unlimited Forms", "Premium Hosting", "Fast CDN"],
+    "icon": "⚡"
+  }
+]
