@@ -1,3 +1,7 @@
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 const Footer = () => {
     return (
         <footer className="bg-[#0B1221] text-gray-400 py-16 px-6 md:px-12">
@@ -28,28 +32,32 @@ const Footer = () => {
                     <div>
                         <h3 className="text-white text-xl font-semibold mb-6">Company</h3>
                         <ul className="space-y-4 text-lg">
-                            <li><a href="#" className="hover:text-white transition">About</a></li>
-                            <li><a href="#" className="hover:text-white transition">Blog</a></li>
-                            <li><a href="#" className="hover:text-white transition">Careers</a></li>
-                            <li><a href="#" className="hover:text-white transition">Press</a></li>
+                            <li><a className="hover:text-white transition">About</a></li>
+                            <li><a className="hover:text-white transition">Blog</a></li>
+                            <li><a className="hover:text-white transition">Careers</a></li>
+                            <li><a  className="hover:text-white transition">Press</a></li>
                         </ul>
                     </div>
 
                     {/* Resources & Social Links */}
                     <div>
                         <h3 className="text-white text-xl font-semibold mb-6">Resources</h3>
-                        <ul className="space-y-4 text-lg mb-8">
-                            <li><a href="#" className="hover:text-white transition">Documentation</a></li>
-                            <li><a href="#" className="hover:text-white transition">Help Center</a></li>
-                            <li><a href="#" className="hover:text-white transition">Community</a></li>
-                            <li><a href="#" className="hover:text-white transition">Contact</a></li>
+                        <ul>
+                            <li><a className="hover:text-white transition">Documentation</a></li>
+                            <li><a className="hover:text-white transition">Help Center</a></li>
+                            <li><a className="hover:text-white transition">Community</a></li>
+                            <li><a className="hover:text-white transition">Contact</a></li>
                         </ul>
-
-                        <div>
-                            <h3 className="text-white text-xl font-semibold mb-5">Social Links</h3>
-                           
-                        </div>
                     </div>
+                    <div>
+                           <h3 className="text-white text-xl font-semibold mb-5">Social Links</h3>
+                            <ul className="space-y-4 text-lg mb-8 flex gap-2.5">
+                             <li><a className="hover:text-white transition"><FaFacebook /></a></li>
+                             <li><a className="hover:text-white transition"><FaLinkedin /></a></li>
+                             <li><a className="hover:text-white transition"><FaInstagramSquare /></a></li>
+                             <li><a className="hover:text-white transition"><MdEmail /></a></li>
+                            </ul>
+                        </div>
                 </div>
 
                 {/* Bottom Section */}

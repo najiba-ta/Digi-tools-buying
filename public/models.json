@@ -8,7 +8,7 @@
     "tag": "new",
     "tagType": "New",
     "features": ["50GB Storage", "256-bit Encryption", "Priority Support"],
-    "icon": "☁️"
+    "icon": "cloud.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["Weekly Audit", "Keyword Tracking", "Competitor Insights", "Backlink Monitor"],
-    "icon": "🚀"
+    "icon": "rocket.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "new",
     "tagType": "New",
     "features": ["Unlimited Tasks", "3 Board Views", "GitHub Integration"],
-    "icon": "💻"
+    "icon": "pc.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "best-seller",
     "tagType": "Best Seller",
     "features": ["Unlimited Files", "Team Roles", "Version History", "Custom Fonts"],
-    "icon": "🎨"
+    "icon": "design.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["Smart Segments", "A/B Testing", "Drag-n-Drop Editor"],
-    "icon": "📧"
+    "icon": "mail.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "best-seller",
     "tagType": "Best Seller",
     "features": ["Offline Access", "Biometric Login", "Emergency Kit", "Data Breach Alerts"],
-    "icon": "🔐"
+    "icon": "secure.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "new",
     "tagType": "New",
     "features": ["Heatmaps", "Funnel Analysis", "Real-time Visitors", "API Access"],
-    "icon": "📊"
+    "icon": "analytiics.png"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "tag": "best-seller",
     "tagType": "Best Seller",
     "features": ["AI Captioning", "Unified Inbox", "Custom Reporting"],
-    "icon": "📱"
+    "icon": "social.png"
   },
   {
     "id": 9,
@@ -96,6 +96,6 @@
     "tag": "popular",
     "tagType": "Popular",
     "features": ["CRM Sync", "Unlimited Forms", "Premium Hosting", "Fast CDN"],
-    "icon": "⚡"
+    "icon": "leadgen.jpeg"
   }
 ]

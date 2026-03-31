@@ -1,6 +1,6 @@
 const Stats = () => {
     return (
-        <section className="bg-[#8B31FF] py-16 my-20">
+        <section className="bg-[#8B31FF] py-16 my-20 max-w-7xl mx-auto hover:bg-indigo-800 transition">
             <div className="container mx-auto flex flex-col md:flex-row justify-center items-center text-white">
                 
                 

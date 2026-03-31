@@ -4,7 +4,7 @@ import RocketImage from "../assets/rocket.png"
 
 const Digitools = () => {
     return (
-        <section className="bg-[#F9FAFB] py-20 px-6">
+        <section className="bg-[#F9FAFB] py-20 px-6 max-w-7xl mx-auto">
             <div className="container mx-auto text-center">
                 
                 {/* Heading Section */}
@@ -16,10 +16,10 @@ const Digitools = () => {
                 </p>
 
                 {/* Steps Cards */}
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     
                     {/* Step 1 */}
-                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center">
+                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center hover:bg-indigo-50">
                         <span className="absolute top-6 right-6 bg-[#8B31FF] text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
                             01
                         </span>
@@ -33,7 +33,7 @@ const Digitools = () => {
                     </div>
 
                     {/* Step 2 */}
-                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center">
+                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center hover:bg-indigo-50">
                         <span className="absolute top-6 right-6 bg-[#8B31FF] text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
                             02
                         </span>
@@ -47,7 +47,7 @@ const Digitools = () => {
                     </div>
 
                     {/* Step 3 */}
-                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center">
+                    <div className="bg-white p-10 rounded-3xl border border-gray-100 shadow-sm relative flex flex-col items-center hover:bg-indigo-50">
                         <span className="absolute top-6 right-6 bg-[#8B31FF] text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-sm">
                             03
                         </span>

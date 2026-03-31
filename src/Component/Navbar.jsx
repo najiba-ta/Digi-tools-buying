@@ -1,8 +1,8 @@
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
-
-const Navbar = () => {
+const Navbar = ({ carts }) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+        <div className="navbar bg-base-100 shadow-sm max-w-7xl mx-auto">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,15 +11,11 @@ const Navbar = () => {
                     <ul
                         tabIndex="-1"
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                        <li><a>Item 1</a></li>
-                        <li>
-                            <a>Parent</a>
-                            <ul className="p-2">
-                                <li><a>Submenu 1</a></li>
-                                <li><a>Submenu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Features</a></li>
+                        <li><a>Pricing</a></li>
+                        <li><a>Testimonials</a></li>
+                        <li><a>FAQ</a></li>
                     </ul>
                 </div>
                 <h2 className="text-4xl font-bold text bg-linear-to-r from-indigo-600 to-violet-800 bg-clip-text text-transparent ">DigiTools</h2>
@@ -34,9 +30,12 @@ const Navbar = () => {
 
                 </ul>
             </div>
-            <div className="navbar-end flex gap-2">
+            <div className="navbar-end flex gap-3">
+                <a href="">{carts.length}<AiOutlineShoppingCart className="text text-indigo-500 w-10 h-10 mb-4" /></a>
                 <a className="text bg-linear-to-r from-indigo-600 to-violet-800 bg-clip-text text-transparent">Login</a>
-                <a className="btn rounded-full bg-linear-to-r from-indigo-600 to-violet-800 text-white">Get Started</a>
+                <a className="btn rounded-full bg-linear-to-r from-indigo-600 to-violet-800 
+              text-white px-6 py-2 duration-300 
+              hover:from-indigo-700 hover:to-indigo-900">Get Started</a>
             </div>
         </div>
     );

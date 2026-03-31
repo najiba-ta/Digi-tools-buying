@@ -2,7 +2,7 @@
 
 const Woekflow= () => {
     return (
-        <section className="bg-[#8B31FF] py-20 px-6">
+        <section className="bg-[#8B31FF] py-20 px-6 hover:bg-indigo-800">
             <div className="container mx-auto text-center text-white">
                 
                 {/* Heading */}
