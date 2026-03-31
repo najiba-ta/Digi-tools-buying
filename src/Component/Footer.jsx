@@ -7,12 +7,12 @@ const Footer = () => {
         <footer className="bg-[#0B1221] text-gray-400 py-16 px-6 md:px-12">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
-                    
-                    {/* Brand Section */}
+
+                    {/* First Section */}
                     <div className="lg:col-span-2">
                         <h2 className="text-white text-4xl font-bold mb-5">DigiTools</h2>
                         <p className="max-w-xs leading-relaxed text-lg">
-                            Premium digital tools for creators, professionals, and businesses. 
+                            Premium digital tools for creators, professionals, and businesses.
                             Work smarter with our suite of powerful tools.
                         </p>
                     </div>
@@ -35,7 +35,7 @@ const Footer = () => {
                             <li><a className="hover:text-white transition">About</a></li>
                             <li><a className="hover:text-white transition">Blog</a></li>
                             <li><a className="hover:text-white transition">Careers</a></li>
-                            <li><a  className="hover:text-white transition">Press</a></li>
+                            <li><a className="hover:text-white transition">Press</a></li>
                         </ul>
                     </div>
 
@@ -50,17 +50,17 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div>
-                           <h3 className="text-white text-xl font-semibold mb-5">Social Links</h3>
-                            <ul className="space-y-4 text-lg mb-8 flex gap-2.5">
-                             <li><a className="hover:text-white transition"><FaFacebook /></a></li>
-                             <li><a className="hover:text-white transition"><FaLinkedin /></a></li>
-                             <li><a className="hover:text-white transition"><FaInstagramSquare /></a></li>
-                             <li><a className="hover:text-white transition"><MdEmail /></a></li>
-                            </ul>
-                        </div>
+                        <h3 className="text-white text-xl font-semibold mb-5">Social Links</h3>
+                        <ul className="space-y-4 text-lg mb-8 flex gap-2.5">
+                            <li><a className="hover:text-white transition"><FaFacebook /></a></li>
+                            <li><a className="hover:text-white transition"><FaLinkedin /></a></li>
+                            <li><a className="hover:text-white transition"><FaInstagramSquare /></a></li>
+                            <li><a className="hover:text-white transition"><MdEmail /></a></li>
+                        </ul>
+                    </div>
                 </div>
 
-                {/* Bottom Section */}
+                {/* Last Section */}
                 <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center text-md">
                     <p>© 2026 Digitools. All rights reserved.</p>
                     <div className="flex gap-8 mt-4 md:mt-0">
