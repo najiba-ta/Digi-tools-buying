@@ -6,6 +6,7 @@ const Cart = ({ carts, setCarts }) => {
         setCarts([])
         toast.success("Payment Successful!!")
     };
+
     const handleDelete = (item) => {
        const filterArray = carts.filter (c => c.id !== item.id)
       setCarts(filterArray)

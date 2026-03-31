@@ -1,10 +1,10 @@
 
 
-const Woekflow= () => {
+const Woekflow = () => {
     return (
         <section className="bg-[#8B31FF] py-20 px-6 hover:bg-indigo-800">
             <div className="container mx-auto text-center text-white">
-                
+
                 {/* Heading */}
                 <h2 className="text-4xl md:text-5xl font-bold mb-6">
                     Ready To Transform Your Workflow?
@@ -12,7 +12,7 @@ const Woekflow= () => {
 
                 {/* Subtext */}
                 <p className="text-lg md:text-xl opacity-90 max-w-2xl mx-auto mb-10 leading-relaxed">
-                    Join thousands of professionals who are already using Digitools to work smarter. 
+                    Join thousands of professionals who are already using Digitools to work smarter.
                     Start your free trial today.
                 </p>
 
