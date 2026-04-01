@@ -8,7 +8,7 @@ This is a modern and responsive **Digital Tools Buying Website** where users can
 
 ## 🚀 Live Demo
 
-🔗 Live Site: *[Add your live link here]*
+🔗 Live Site: *[https://dainty-basbousa-16436f.netlify.app/]*
 🔗 GitHub Repo: *[Add your repo link here]*
 
 ---
