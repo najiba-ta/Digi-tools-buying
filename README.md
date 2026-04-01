@@ -6,10 +6,11 @@ This is a modern and responsive **Digital Tools Buying Website** where users can
 
 --
 
-## 🚀 Live Demo
 
-🔗 Live Site: *[https://dainty-basbousa-16436f.netlify.app/]*
-🔗 GitHub Repo: *[https://github.com/najiba-ta/Digi-tools-buying]*
+
+## 🔗 Live Site: *[https://digitoolsbuyingplatform.netlify.app/]*
+
+## 🔗 GitHub Repo: *[https://github.com/najiba-ta/Digi-tools-buying]*
 
 ---
 

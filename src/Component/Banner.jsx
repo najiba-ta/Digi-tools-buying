@@ -11,13 +11,15 @@ const Banner = () => {
                        <FaCircleDot /> New: AI-Powered Tools Available
                     </div>
 
-                    <h1 className="text-3xl lg:text-5xl font-bold">
+                    
+                        <h1 className="text-3xl lg:text-5xl font-bold">
                         Supercharge Your
                         <br />
-                        <span className="text-3xl lg:text-5xl font-bold">
+                        <span className="text-3xl lg:text-5xl font-bold text bg-linear-to-r from-indigo-600 to-violet-800 bg-clip-text text-transparent">
                             Digital Workflow
                         </span>
                     </h1>
+                    
 
                     <p className="text-lg text-zinc-700 max-w-lg">
                         Access premium AI tools, design assets, templates, and productivity

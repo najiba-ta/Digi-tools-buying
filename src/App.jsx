@@ -2,12 +2,12 @@ import Navbar from "./Component/Navbar"
 import Banner from "./Component/Banner"
 import Stats from "./Component/Stats"
 import Footer from "./Component/Footer"
-import Woekflow from "./Component/Woekflow"
 import Pricing from "./Component/Pricing"
 import Digitools from "./Component/Digitools"
 import Tools from "./Component/Tools"
 import Cart from "./Component/Cart"
 import { useState } from "react"
+import Workflow from "./Component/Workflow"
 
 
 const getModels = async () => {
@@ -41,7 +41,7 @@ function App() {
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
       <Digitools></Digitools>
       <Pricing></Pricing>
-      <Woekflow></Woekflow>
+      <Workflow></Workflow>
       <Footer></Footer>
     </>
   )

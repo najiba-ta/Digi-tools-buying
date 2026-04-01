@@ -2,7 +2,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Navbar = ({ carts }) => {
     return (
-        <div className="navbar bg-base-100 shadow-sm max-w-7xl mx-auto">
+        <div className="navbar bg-base-100 shadow-sm max-w-7xl mx-auto sticky top-0 left-0 right-0 z-50">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -30,12 +30,27 @@ const Navbar = ({ carts }) => {
 
                 </ul>
             </div>
-            <div className="navbar-end flex gap-3">
-                <a href="">{carts.length}<AiOutlineShoppingCart className="text text-indigo-500 w-10 h-10 mb-4" /></a>
-                <a className="text bg-linear-to-r from-indigo-600 to-violet-800 bg-clip-text text-transparent">Login</a>
-                <a className="btn rounded-full bg-linear-to-r from-indigo-600 to-violet-800 
-              text-white px-6 py-2 duration-300 
-              hover:from-indigo-700 hover:to-indigo-900">Get Started</a>
+            <div className="navbar-end flex items-center gap-2 md:gap-4">
+
+               
+                <div className="relative">
+                    <AiOutlineShoppingCart className="text-indigo-500 w-6 h-6 md:w-8 md:h-8" />
+
+                    <span className="absolute -top-2 -right-2 text-xs bg-red-500 text-white px-1.5 rounded-full">
+                        {carts.length}
+                    </span>
+                </div>
+
+                
+                <a className="hidden sm:block bg-linear-to-r from-indigo-600 to-violet-800 bg-clip-text text-transparent text-sm md:text-base">
+                    Login
+                </a>
+
+               
+                <a className="btn btn-sm md:btn-md rounded-full bg-linear-to-r from-indigo-600 to-violet-800 text-white px-4 md:px-6">
+                    Get Started
+                </a>
+
             </div>
         </div>
     );
