@@ -4,12 +4,12 @@
 
 This is a modern and responsive **Digital Tools Buying Website** where users can explore different digital products and purchase them easily. The project focuses on clean UI, smooth user experience, and functional cart management using React.
 
----
+--
 
 ## 🚀 Live Demo
 
 🔗 Live Site: *[https://dainty-basbousa-16436f.netlify.app/]*
-🔗 GitHub Repo: *[Add your repo link here]*
+🔗 GitHub Repo: *[https://github.com/najiba-ta/Digi-tools-buying]*
 
 ---
 
@@ -97,6 +97,4 @@ This project helped me practice **React fundamentals, component structure, state
 
 ---
 
-### 😎 Congrats to me!
 
-Yay! My easy-peasy assignment is complete and everything is ready 🚀
